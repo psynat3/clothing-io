@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>clothing.io | Wishlist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body data-page="wishlist">
+    <header role="banner" class="site-header">
+      <a class="brand" href="index.html" title="clothing.io home">clothing.io</a>
+      <nav role="navigation" aria-label="Main">
+        <ul>
+          <li><a href="index.html" title="Home">Home</a></li>
+          <li><a href="shop.html" title="Shop all clothing">Shop</a></li>
+          <li><a href="wishlist.html" title="Your wishlist" aria-current="page">Wishlist <span class="badge" id="wishlist-count" hidden>0</span></a></li>
+          <li><a href="cart.html" title="Your cart">Cart <span class="badge" id="cart-count" hidden>0</span></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <h1 class="page-title">Wishlist</h1>
+      <p class="lead">Pieces you saved. Move them to your cart when you're ready.</p>
+      <div id="wishlist-content"></div>
+      <noscript><p>clothing.io needs JavaScript turned on to show your wishlist.</p></noscript>
+    </main>
+
+    <footer role="contentinfo" class="site-footer">
+      <p>&copy; 2026 clothing.io</p>
+    </footer>
+
+    <div id="status" class="status" role="status" aria-live="polite"></div>
+  </body>
+</html>
